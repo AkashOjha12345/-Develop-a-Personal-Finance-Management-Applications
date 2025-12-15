@@ -1,0 +1,91 @@
+/* Reset basic spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page background */
+body {
+    background-color: darkred;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Center cards */
+.container {
+    margin-top: 60px;
+}
+
+/* Headings */
+h2, h3 {
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+/* Form box */
+form {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Inputs */
+input {
+    height: 45px;
+}
+
+/* Buttons */
+button {
+    height: 45px;
+    font-weight: bold;
+}
+
+/* Navbar */
+
+body {
+    body {
+    background: url("bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background: #333;
+    padding: 12px;
+}
+
+.navbar a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.navbar a.active {
+    font-weight: bold;
+    border-bottom: 2px solid yellow;
+}
+
+.container {
+    padding: 20px;
+}
+
+.navbar {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Active link */
+.nav-link.active {
+    font-weight: bold;
+    color: #ffc107 !important;
+}
+
+/* Dashboard text */
+.dashboard-text {
+    font-size: 18px;
+    color: #555;
+}
